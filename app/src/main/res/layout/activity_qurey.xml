@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_choose"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiuxiu.activity.QueryActivity">
+    <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_alignParentTop="true"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@color/white"
+                    android:layout_height="60dp">
+
+        <Button android:id="@+id/btn_queryResult"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/edit_bg"
+                android:text="搜索"/>
+
+        <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical"
+                        android:layout_toLeftOf="@id/btn_queryResult">
+
+            <EditText
+                      android:layout_width="fill_parent"
+                      android:layout_height="40dp"
+                      android:background="@drawable/edit_bg"
+                      android:layout_marginRight="10dp"
+                      android:paddingLeft="32dp"
+                      android:textSize="12sp"
+                      android:inputType="number"
+                      android:hint="请输入配件码..."/>
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+
+        android:id="@+id/tv_queryresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

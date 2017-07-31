@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xiuxiu.util.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                     xmlns:tools="http://schemas.android.com/tools"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                     xmlns:app="http://schemas.android.com/apk/res-auto"
+                                     android:orientation="horizontal"
+                                     android:background="#ffefebe7"
+
+                                   >
+
+    <com.xiuxiu.util.PercentLinearLayout
+        android:layout_marginTop="3dp"
+                                         android:layout_width="match_parent"
+                                         android:layout_height="match_parent"
+                                         app:layout_widthPercent="25%"
+                                         android:orientation="vertical"
+                                         android:id="@+id/button_pp"
+                                         tools:context="com.xiuxiu.fragment.MineFragment">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       app:layout_heightPercent="75%"
+        android:src="@mipmap/home_pp"
+        />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_heightPercent="25%"
+    android:text="定制维修"
+android:gravity="center"
+
+    />
+
+    </com.xiuxiu.util.PercentLinearLayout>
+
+    <com.xiuxiu.util.PercentLinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/button_zx"
+        android:orientation="vertical"
+        app:layout_widthPercent="25%"
+        tools:context="com.xiuxiu.fragment.MineFragment">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/home_choose"
+            app:layout_heightPercent="75%"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_heightPercent="25%"
+            android:text="自选维修"
+            android:gravity="center"
+
+            />
+    </com.xiuxiu.util.PercentLinearLayout>
+
+
+    <com.xiuxiu.util.PercentLinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_widthPercent="25%"
+        android:orientation="vertical"
+        android:id="@+id/button_ct"
+        tools:context="com.xiuxiu.fragment.MineFragment">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/home_professor"
+            app:layout_heightPercent="75%"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_heightPercent="25%"
+            android:text="专家咨询"
+            android:gravity="center"
+
+            />
+    </com.xiuxiu.util.PercentLinearLayout>
+
+
+    <com.xiuxiu.util.PercentLinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_widthPercent="25%"
+        android:orientation="vertical"
+        android:id="@+id/button_pj"
+        tools:context="com.xiuxiu.fragment.MineFragment">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/home_cx"
+            app:layout_heightPercent="75%"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_heightPercent="25%"
+            android:text="配件查询"
+            android:gravity="center"
+
+            />
+    </com.xiuxiu.util.PercentLinearLayout>
+
+
+
+</com.xiuxiu.util.PercentLinearLayout>

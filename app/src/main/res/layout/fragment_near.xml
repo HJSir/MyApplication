@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:orientation="vertical"
+    tools:context="com.xiuxiu.fragment.NearFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout android:id="@+id/top"
+                    android:layout_width="fill_parent"
+                    android:layout_alignParentTop="true"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@color/white"
+                    android:layout_height="60dp">
+
+        <Button android:id="@+id/btnSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:background="@drawable/edit_bg"
+
+                android:text="搜索"/>
+
+        <RelativeLayout android:id="@+id/rlSearchFrameDelete"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:gravity="center_vertical"
+                        android:layout_toLeftOf="@id/btnSearch">
+
+            <EditText android:id="@+id/etSearch"
+                      android:layout_width="fill_parent"
+                      android:layout_height="40dp"
+                      android:background="@drawable/edit_bg"
+                      android:layout_marginRight="10dp"
+                      android:paddingLeft="32dp"
+                      android:textSize="12sp"
+                      android:hint="请输入文字..."/>
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.xiuxiu.util.DropDownMenu
+        xmlns:android="http://schemas.android.com/apk/res/android"
+                                              xmlns:app="http://schemas.android.com/apk/res-auto"
+                                              android:id="@+id/dropDownMenu"
+                                              android:layout_width="match_parent"
+                                              android:layout_height="match_parent"
+                                              app:dividerColor="@color/blue_app"
+                                              app:maskColor="@color/mask_color"
+                                              app:menuBackgroundColor="@color/base_title_color"
+                                              app:menuSelectedIcon="@drawable/ic_img_up"
+                                              app:menuTextSize="15sp"
+                                              app:menuUnselectedIcon="@drawable/ic_img_down"
+                                              app:textSelectedColor="@color/blue_app"
+                                              app:textUnselectedColor="@color/drop_down_unselected"
+                                              app:underlineColor="@color/blue_app" />
+    <!--<ListView-->
+        <!--android:id="@+id/near_listview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--&gt;</ListView>-->
+
+</LinearLayout>

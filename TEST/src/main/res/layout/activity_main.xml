@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+          >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                android:background="@mipmap/shop2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+
+                    android:gravity="center|left"
+                    android:text="汽车维修服务中心"
+                    android:textColor="#000"
+                    android:textSize="24dip"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+                <TextView
+
+                    android:gravity="center"
+                    android:text="月交易1000笔"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+                    <ImageView
+                        android:src="@mipmap/dingwei_detail"
+                        android:layout_weight="2.3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                    <TextView
+
+                        android:gravity="center|left"
+                        android:text="永定区"
+
+
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                    <ImageView
+                        android:src="@mipmap/tel"
+                        android:layout_weight="2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+                    <ImageView
+                        android:src="@mipmap/service_detail"
+                        android:layout_weight="2.3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                    <TextView
+android:textSize="20dp"
+                        android:gravity="center|left"
+                        android:text="服务类别"
+
+                        android:textColor="#000"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                    <ImageView
+                        android:src="@mipmap/choose"
+                        android:layout_weight="2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp">
+
+                    <ImageView
+                        android:layout_marginRight="10dp"
+                        android:background="@mipmap/shop1"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"/>
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp">
+                        <TextView
+                            android:gravity="center|left"
+                            android:text="汽车洗车打蜡"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="30dp">
+                           <TextView
+                               android:gravity="center|left"
+                               android:text="周一至周五"
+                               android:layout_weight="2"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"/>
+
+                           <TextView
+                               android:gravity="center"
+                               android:text="月售40笔"
+                               android:layout_weight="2"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"/>
+<ImageView
+    android:layout_gravity="center"
+    android:src="@mipmap/choose"
+    android:layout_width="20dp"
+    android:layout_height="20dp"/>
+                       </LinearLayout>
+
+                        <TextView
+                            android:textColor="#5F9EA0"
+                            android:gravity="center|left"
+                            android:text="￥78元"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+
+                        android:gravity="center|left"
+                        android:text="问大家（24）"
+
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                    <ImageView
+                        android:src="@mipmap/choose"
+                       android:layout_gravity="center"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp">
+                <ImageView
+                    android:src="@mipmap/ask"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="10dp"
+                    />
+                <TextView
+                    android:text="这家店铺的服务怎么样？"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+                    <ImageView
+                        android:src="@mipmap/ask"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <TextView
+                        android:text="这家店铺的老板漂亮吗？"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <TextView
+
+                        android:gravity="center|left"
+                        android:text="用户评价"
+
+                        android:textSize="16dp"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+                    <ImageView
+                        android:src="@mipmap/choose"
+                        android:layout_gravity="center"
+                        android:layout_width="30dp"
+                        android:layout_height="20dp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <ImageView
+                        android:src="@drawable/ic_launcher"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"/>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="张三"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"/>
+                        <TextView
+                            android:text="2015-6-05"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <TextView
+                    android:text="师傅很好很快的解决了我的问题而且还不贵"
+                    android:layout_marginLeft="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"/>
+
+
+
+<Button
+    android:background="@color/orange"
+    android:text="查看更多"
+    android:layout_gravity="center"
+    android:layout_width="160dp"
+    android:layout_height="35dp"/>
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="120px"
+
+
+                    >
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    <LinearLayout
+android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:background="@color/orange"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@mipmap/shop_detail"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:text="联系卖家"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+           android:background="@color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@mipmap/share_detail"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="分享"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@mipmap/shoucang"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:text="收藏"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<com.xiuxiu.util.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                     xmlns:tools="http://schemas.android.com/tools"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                     xmlns:app="http://schemas.android.com/apk/res-auto"
+                                     android:orientation="vertical"
+                                     android:background="#ffefebe7"
+                                     tools:context="com.xiuxiu.fragment.HomeFragment">
+<!--<TextView-->
+    <!--android:textSize="23dp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:background="#FFE4C4"-->
+    <!--android:text="咻修"/>-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        app:layout_heightPercent="38%"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp" />
+    <include
+        android:id="@+id/id_ly_bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        app:layout_heightPercent="12%"
+        layout="@layout/bottombar_homec" />
+
+
+    <com.xiuxiu.util.PercentLinearLayout
+        android:background="#ffefebe7"
+        app:layout_heightPercent="8%"
+        app:layout_widthPercent="25%"
+android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:id="@+id/button_pp"
+        tools:context="com.xiuxiu.fragment.MineFragment">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_widthPercent="20%"
+            android:src="@mipmap/home_hot"
+
+            />
+
+        <TextView
+            android:background="#ffefebe7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_widthPercent="80%"
+            android:text="热门商店"
+            android:gravity="center"
+
+android:textStyle="bold"
+            />
+
+    </com.xiuxiu.util.PercentLinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    <ListView
+        android:id="@+id/home_listview"
+        android:background="#ffefebe7"
+        app:layout_heightPercent="42%"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</com.xiuxiu.util.PercentLinearLayout >

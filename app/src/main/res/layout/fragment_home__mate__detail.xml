@@ -1,0 +1,169 @@
+<com.xiuxiu.util.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                     xmlns:tools="http://schemas.android.com/tools"
+                                     xmlns:app="http://schemas.android.com/apk/res-auto"
+                                     android:orientation="vertical"
+                                     android:layout_width="match_parent"
+                                     android:layout_height="match_parent"
+                                     tools:context="com.xiuxiu.fragment.HomeMateDetailFragment">
+
+
+    <LinearLayout
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="40dp">
+        <ImageView
+            android:src="@mipmap/back_icon2"
+            android:id="@+id/back_icon"
+            android:background="@color/orange"
+            android:layout_weight="8.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:text="定制维修"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:id="@+id/top_title"
+            android:layout_weight="1.5"
+            android:layout_width="match_parent"
+            android:background="@color/orange"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+       <ImageView
+           app:layout_heightPercent="18%"
+           android:background="@mipmap/bmw"
+           android:layout_gravity="center"
+           android:layout_height="100dp"
+           android:layout_width="150dp"
+           />
+    <TextView
+        android:gravity="center"
+        android:text="宝马"
+        app:layout_heightPercent="4%"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="20dp"/>
+    <Button
+        android:layout_marginTop="5dp"
+
+        android:textColor="@color/white"
+        app:layout_heightPercent="4%"
+        android:text="更换车型"
+        android:background="@color/orange"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="20dp"/>
+<ImageView
+    app:layout_heightPercent="2%"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:background="@color/gray_pressed"
+    android:layout_width="match_parent"
+    android:layout_height="10dp"/>
+
+
+        <EditText
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:layout_heightPercent="25%"
+            android:layout_marginTop="5dp"
+            android:hint="描述一下车辆详细故障..."
+            android:gravity="left|top"
+
+            android:background="@drawable/detai_edit"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"/>
+
+
+    <ImageView
+        app:layout_heightPercent="10%"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <LinearLayout  android:orientation="horizontal"
+                   app:layout_heightPercent="5%"
+                   android:layout_width="match_parent"
+                   android:layout_height="30dp"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+        >
+        <ImageView
+
+
+            android:src="@mipmap/dingw"
+            android:layout_weight="8.5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:layout_weight="1.5"
+            android:text="定位失败"
+            android:gravity="bottom"
+            android:id="@+id/tv_locat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    
+    <LinearLayout  android:orientation="horizontal"
+                   app:layout_heightPercent="5%"
+                   android:layout_width="match_parent"
+                   android:layout_height="30dp"
+
+                   android:layout_marginBottom="5dp">
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:text="车主姓名"/>
+
+
+        <EditText
+
+            android:textStyle="bold"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout  android:orientation="horizontal"
+                   android:layout_width="match_parent"
+                   android:layout_height="30dp"
+                   app:layout_heightPercent="5%">
+        <TextView
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:text="联系电话"/>
+
+
+        <EditText
+
+            android:textStyle="bold"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+    </LinearLayout>
+
+
+<Button
+    app:layout_heightPercent="6%"
+android:layout_marginTop="5dp"
+    android:id="@+id/tj_detail"
+    android:layout_gravity="center"
+android:text="提交车辆信息"
+android:layout_width="150dp"
+android:layout_height="30dp"
+    android:background="@drawable/bg_one"
+    android:textColor="@color/white"
+android:gravity="center"/>
+    </com.xiuxiu.util.PercentLinearLayout>

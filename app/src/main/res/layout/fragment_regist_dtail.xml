@@ -1,0 +1,90 @@
+<com.xiuxiu.util.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              tools:context="com.xiuxiu.fragment.RegistDtailFragment">
+
+
+    <com.xiuxiu.util.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_heightPercent="10%"
+        android:orientation="horizontal">
+  <TextView
+      android:text="账号："
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layout_widthPercent="30%"
+      android:gravity="center"/>
+        <EditText
+            android:id="@+id/reg_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.xiuxiu.util.PercentLinearLayout>
+
+    <com.xiuxiu.util.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_heightPercent="10%"
+        android:orientation="horizontal">
+        <TextView
+            android:text="密码："
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_widthPercent="30%"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/reg_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.xiuxiu.util.PercentLinearLayout>
+
+
+    <com.xiuxiu.util.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_heightPercent="10%"
+        android:orientation="horizontal">
+        <TextView
+            android:text="姓名："
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_widthPercent="30%"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/reg_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.xiuxiu.util.PercentLinearLayout>
+    <com.xiuxiu.util.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_heightPercent="10%"
+        android:orientation="horizontal">
+        <TextView
+            android:text="性别："
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_widthPercent="30%"
+            android:gravity="center"/>
+        <EditText
+            android:id="@+id/reg_sex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.xiuxiu.util.PercentLinearLayout>
+
+    <Button
+        android:id="@+id/login_detail_zc"
+        android:text="注册"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"/>
+
+
+</com.xiuxiu.util.PercentLinearLayout>
